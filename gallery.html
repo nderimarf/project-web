@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WeFind - Gallery</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <script src="https://use.fontawesome.com/f7ac9b42c4.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <span class="navbar-toggle" id="js-navbar-toggle">
+                    <i class="fa fa-bars"></i>
+                </span>
+                <a href="index.html" class="logo">WeFind Real Estate</a>
+                <ul class="main-nav" id="js-menu">
+                    <li><a href="index.html" class="nav-links">Home</a></li>
+                    <li><a href="gallery.html" class="nav-links">Gallery</a></li>
+                    <li><a href="about.html" class="nav-links">About Us</a></li>
+                    <li><a href="contact.html" class="nav-links">Contact Us</a></li>
+                    <li><a href="login.html" class="nav-links">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="page-title container">
+            <h1 style="text-align: center;">Gallery</h1>
+        </div>
+        <div class="slider">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <img src="img/apartments.jfif" alt="houses picture" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="img/houses.jpg" alt="apartments picture" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="img/neighborhood.jpg" alt="neighborhod picture" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/road.jpg" alt="houses picture" style="width:100%">
+                  </div>
+                  
+                  <div class="mySlides fade">
+                    <img src="img/interior.jpg" alt="apartments picture" style="width:100%">
+                  </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                  <span class="dot" onclick="currentSlide(4)"></span> 
+                  <span class="dot" onclick="currentSlide(5)"></span> 
+                </div>
+        </div>
+        <footer>
+            <div class="footer-content container">
+                <div class="footer-top">
+                    <ul class="socials">
+                        <li><a href="#"><i class="fa fa-facebook" style="font-size: 30px;"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" style="font-size: 30px;"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" style="font-size: 30px;"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <ul>
+                        <li>Info</li>
+                        <li>Support</li>
+                        <li>Marketing</li>
+                    </ul>
+                    <ul>
+                        <li>Terms of Use</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                    <p>&copy;2020 WeFind</p>
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
